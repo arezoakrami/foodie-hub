@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="Page-1" id="OBxl0xjMajHkzxwtfH_3">
+    <mxGraphModel dx="715" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mh8C--iufMncHvOQiZBy-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#182E3E;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="mh8C--iufMncHvOQiZBy-2" target="mh8C--iufMncHvOQiZBy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mh8C--iufMncHvOQiZBy-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#182E3E;" edge="1" parent="1" source="mh8C--iufMncHvOQiZBy-2" target="mh8C--iufMncHvOQiZBy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mh8C--iufMncHvOQiZBy-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.683;exitY=-0.003;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#182E3E;exitPerimeter=0;" edge="1" parent="1" source="mh8C--iufMncHvOQiZBy-2" target="mh8C--iufMncHvOQiZBy-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="212" y="30" />
+              <mxPoint x="590" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mh8C--iufMncHvOQiZBy-2" value="&lt;b&gt;Resturant&lt;/b&gt;&lt;div&gt;id:&lt;/div&gt;&lt;div&gt;Name:&lt;br&gt;Address:&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Phone:&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mh8C--iufMncHvOQiZBy-3" value="&lt;b&gt;Menu Item&lt;/b&gt;&lt;div&gt;id:&lt;/div&gt;&lt;div&gt;restaurant id:&lt;/div&gt;&lt;div&gt;name:&amp;nbsp;&lt;/div&gt;&lt;div&gt;description:&lt;/div&gt;&lt;div&gt;price:&lt;/div&gt;&lt;div&gt;available:&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="120" y="310" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mh8C--iufMncHvOQiZBy-4" value="&lt;b&gt;Order Item&lt;/b&gt;&lt;br&gt;&lt;div&gt;order_id:&lt;/div&gt;&lt;div&gt;menu_item_id:&lt;/div&gt;&lt;div&gt;quantity:&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="530" y="140" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mh8C--iufMncHvOQiZBy-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#182E3E;" edge="1" parent="1" source="mh8C--iufMncHvOQiZBy-5" target="mh8C--iufMncHvOQiZBy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mh8C--iufMncHvOQiZBy-5" value="&lt;b&gt;Order&lt;/b&gt;&lt;div&gt;id:&lt;/div&gt;&lt;div&gt;customer_id:&lt;/div&gt;&lt;div&gt;resturat_id:&lt;/div&gt;&lt;div&gt;Status(pending, canceled, complete)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="290" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mh8C--iufMncHvOQiZBy-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#182E3E;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="mh8C--iufMncHvOQiZBy-6" target="mh8C--iufMncHvOQiZBy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mh8C--iufMncHvOQiZBy-6" value="&lt;b&gt;Customer&lt;/b&gt;&lt;div&gt;id:&lt;/div&gt;&lt;div&gt;customer_id:&lt;/div&gt;&lt;div&gt;resturant_id:&lt;/div&gt;&lt;div&gt;Phone:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#56517E;strokeColor=#EEEEEE;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="60" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mh8C--iufMncHvOQiZBy-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.029;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#182E3E;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="mh8C--iufMncHvOQiZBy-3" target="mh8C--iufMncHvOQiZBy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mh8C--iufMncHvOQiZBy-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=-0.017;entryY=0.447;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#182E3E;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="mh8C--iufMncHvOQiZBy-3" target="mh8C--iufMncHvOQiZBy-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="240" />
+              <mxPoint x="480" y="240" />
+              <mxPoint x="480" y="212" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
